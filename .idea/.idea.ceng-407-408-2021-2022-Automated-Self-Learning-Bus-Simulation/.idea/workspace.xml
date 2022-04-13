@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2ea139b-7c2b-4958-bdf0-8ff9b41caad8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Scripts/TestAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Scripts/TestAgent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Learning ML/testScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/testScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +16,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Learning ML/Scripts/TestAgent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Learning ML/Scripts/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CarDriverAI/Scripts/CarAITargetMouse.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27k5P52fxRA2yauf9amd0vAimGx" />
   <component name="ProjectViewState">
@@ -51,10 +47,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="16012">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="16012" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -72,6 +68,8 @@
       <updated>1649851220919</updated>
       <workItem from="1649851223440" duration="3683000" />
       <workItem from="1649855424196" duration="1102000" />
+      <workItem from="1649866087147" duration="4000" />
+      <workItem from="1649866105761" duration="1241000" />
     </task>
     <servers />
   </component>
@@ -102,14 +100,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Learning ML/Scripts/TestAgent.cs</url>
           <line>34</line>
-          <properties documentPath="C:\Users\tmrhe\Documents\GitHub\ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation\Assets\Learning ML\Scripts\TestAgent.cs" initialLine="33" containingFunctionPresentation="method 'OnEpisodeBegin'">
-            <startOffsets>
-              <option value="1085" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1088" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="C:\Users\tmrhe\Documents\GitHub\ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation\Assets\Learning ML\Scripts\TestAgent.cs" initialLine="33" containingFunctionPresentation="method 'OnEpisodeBegin'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
