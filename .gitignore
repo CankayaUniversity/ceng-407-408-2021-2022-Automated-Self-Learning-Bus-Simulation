@@ -82,3 +82,8 @@ Assets/_MK/MKToon/ShadersURP_2020_2_Or_Newer.unitypackage.meta
 Assets/_MK/MKToon/ShadersURP_2021_X.unitypackage.meta
 Assets/Art Assets/GUI PRO Kit - Casual Game/ResourcesData/Fonts.meta
 Assets/Epic Toon FX/Prefabs/Environment/Water/Flowing/Sharp.meta
+
+# Python virtual environment
+venv/
+.mypy_cache/
+
