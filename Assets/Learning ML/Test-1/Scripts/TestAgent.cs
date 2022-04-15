@@ -32,6 +32,7 @@ public class TestAgent : Agent
 
     public override void OnEpisodeBegin()
     {
+        Debug.Log("x");
         var randomPos = new Vector3(Random.Range(topLeftCorner.localPosition.x, bottomRightCorner.localPosition.x), 0,
             Random.Range(bottomRightCorner.localPosition.z, topLeftCorner.localPosition.z));
         transform.localPosition = randomPos;

@@ -6,6 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="c2ea139b-7c2b-4958-bdf0-8ff9b41caad8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarDriverAI/Scripts/CarDriver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarDriverAI/Scripts/CarDriver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-1/Scripts/TestAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Test-1/Scripts/TestAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Test-2/demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/testScene_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/testScene_timers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/18 GREY-DARK.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/18 GREY-DARK.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/18 GREY-DARK.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/18 GREY-DARK.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/21 GREY-LIGHT.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/21 GREY-LIGHT.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/21 GREY-LIGHT.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/21 GREY-LIGHT.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/23 GREY-WHITE.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/23 GREY-WHITE.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/23 GREY-WHITE.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/23 GREY-WHITE.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/30 YELLOW.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/30 YELLOW.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/30 YELLOW.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/30 YELLOW.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/36 GREEN.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/36 GREEN.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/36 GREEN.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/36 GREEN.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/9 BROWN-DARKEST.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/9 BROWN-DARKEST.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/9 BROWN-DARKEST.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Materials/Colors/9 BROWN-DARKEST.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +35,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CarDriverAI/Scripts/CarAITargetMouse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bc1d04d811fc4873ab7d8d9d4daddcc9568788/fb/029f13c6/EventHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Plate Cleaner/Assets/Scripts/EventManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/CarDriver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/RoadGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/TrackCheckpointsUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/MultiScreenshotCapture.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27k5P52fxRA2yauf9amd0vAimGx" />
   <component name="ProjectViewState">
@@ -34,6 +70,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -69,7 +106,8 @@
       <workItem from="1649851223440" duration="3683000" />
       <workItem from="1649855424196" duration="1102000" />
       <workItem from="1649866087147" duration="4000" />
-      <workItem from="1649866105761" duration="1241000" />
+      <workItem from="1649866105761" duration="16578000" />
+      <workItem from="1649942484180" duration="11038000" />
     </task>
     <servers />
   </component>
