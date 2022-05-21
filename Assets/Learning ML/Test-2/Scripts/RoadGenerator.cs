@@ -10,9 +10,10 @@ public class RoadGenerator : MonoBehaviour
    [SerializeField] private GameObject spawnRoad;
    [SerializeField] private GameObject curveRoad;
    [SerializeField] private GameObject rightRoad;
+   [SerializeField] private GameObject busStop;
    [SerializeField] private Direction[] roadPath;
    [SerializeField] private static float _roadLength=30;
-   private enum Direction {Straight, Left, Right,Spawn,BothWays};
+   private enum Direction {Straight, Left, Right,Spawn,BothWays,BusStop};
 
    private void Start()
    {
@@ -36,6 +37,9 @@ public class RoadGenerator : MonoBehaviour
             case Direction.Straight:
                newRoad = Instantiate(straightRoad, spawnPosition, Quaternion.Euler(new Vector3(0,rotationValue,0)), this.transform);
                break;
+            case Direction.BusStop:
+               newRoad = Instantiate(busStop, spawnPosition, Quaternion.Euler(new Vector3(0,rotationValue,0)), this.transform);
+               break;
             case Direction.Left:
                rotationValue += -90;
                newRoad = Instantiate(curveRoad, spawnPosition, Quaternion.Euler(new Vector3(0,rotationValue,0)), this.transform);
@@ -48,6 +52,7 @@ public class RoadGenerator : MonoBehaviour
                forwardDirection = Quaternion.AngleAxis(90, transform.up) * forwardDirection;
                isTurned = !isTurned;
                break;
+                
             case Direction.BothWays:
                break;
             default:

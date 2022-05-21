@@ -8,14 +8,16 @@ using Unity.MLAgents.Sensors;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+using DG.Tweening;
+using Unity.Mathematics;
 
-
-    public class CarDriverAgent : Agent
+public class CarDriverAgent : Agent
     {
         [SerializeField] private Transform spawnPosition;
         [SerializeField] private TrackCheckpoints trackCheckpoints;
         [SerializeField] private CarDriver carDriver;
 
+        private bool isOnBusStop;
   
 
  
@@ -37,6 +39,9 @@ using Random = UnityEngine.Random;
         }
         public override void OnActionReceived(ActionBuffers actions)
         {
+            if (isOnBusStop)
+                return;
+            
             float forwardAmount = 0f;
             float turnAmount = 0f;
           
@@ -96,6 +101,37 @@ using Random = UnityEngine.Random;
                 AddReward(-1f);
             
             }
+
+            
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("BusStop"))
+            {
+                isOnBusStop = true;
+                Debug.Log("Bus Stop Entered");
+                OnBusStop();
+                StartCoroutine(DisableBusStop(other.gameObject));
+            }
+        }
+
+        private IEnumerator DisableBusStop(GameObject busStop)
+        {
+      
+            yield return new WaitForSecondsRealtime(4);
+            busStop.gameObject.SetActive(false);
+            isOnBusStop = false;
+        }
+
+        private void OnBusStop()
+        {
+            carDriver.forwardAmount = 0;
+            carDriver.turnAmount = 0;
+           
+            // DOTween.To(()=> carDriver.forwardAmount, x=> carDriver.forwardAmount = x, 0, .5f);
+            //DOTween.To(()=> carDriver.turnAmount, x=> carDriver.turnAmount = x, 0, .5f);
+
         }
 
         private void OnTriggerStay(Collider other)
