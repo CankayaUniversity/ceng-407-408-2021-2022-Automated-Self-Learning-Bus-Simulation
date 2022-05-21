@@ -5151,7 +5151,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 1200
+  MaxStep: 50000
   spawnPosition: {fileID: 0}
   trackCheckpoints: {fileID: 0}
   carDriver: {fileID: 7149503701780240622}

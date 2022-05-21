@@ -6,18 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="c2ea139b-7c2b-4958-bdf0-8ff9b41caad8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Materials 1/CheckPoint.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Materials 1/CheckPoint.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/Agent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/Agent.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/Right Tile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/Right Tile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/SpawnTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/SpawnTile.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/Straight Tile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/Straight Tile.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/Turn Tile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/Turn Tile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/CarDriverAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/CarDriverAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/inters.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Prefabs/inters.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/RoadGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/RoadGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Learning ML/Test-2/demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Learning ML/Test-2/demo.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Timers/demo_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Timers/demo_timers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Prefabs/People_M/woman-casual.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Prefabs/People_M/woman-casual.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Prefabs/Props_M/City_M/bus-stop-sign.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Prefabs/Props_M/City_M/bus-stop-sign.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Visual Stuff/Prefabs/Props_M/City_M/bus-stop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Visual Stuff/Prefabs/Props_M/City_M/bus-stop.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/CarDriverAI/Scripts/CarAITargetMouse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/RoadGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Buildings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Learning ML/Test-2/Scripts/TrackCheckpointsUI.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="27k5P52fxRA2yauf9amd0vAimGx" />
@@ -100,7 +99,7 @@
       <workItem from="1649866105761" duration="16578000" />
       <workItem from="1649942484180" duration="11038000" />
       <workItem from="1650911284846" duration="605000" />
-      <workItem from="1653158048016" duration="3861000" />
+      <workItem from="1653158048016" duration="6961000" />
     </task>
     <servers />
   </component>

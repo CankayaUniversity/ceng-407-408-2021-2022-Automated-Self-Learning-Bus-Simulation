@@ -11,9 +11,12 @@ public class RoadGenerator : MonoBehaviour
    [SerializeField] private GameObject curveRoad;
    [SerializeField] private GameObject rightRoad;
    [SerializeField] private GameObject busStop;
+   [SerializeField] private GameObject rightIntersection;
+   [SerializeField] private GameObject leftIntersection;
+   [SerializeField] private GameObject forwardIntersection;
    [SerializeField] private Direction[] roadPath;
    [SerializeField] private static float _roadLength=30;
-   private enum Direction {Straight, Left, Right,Spawn,BothWays,BusStop};
+   private enum Direction {Straight, Left, Right,Spawn,BothWays,BusStop,RightIntersection,LeftIntersection,Forwardintersection};
 
    private void Start()
    {
@@ -51,6 +54,22 @@ public class RoadGenerator : MonoBehaviour
                newRoad = Instantiate(rightRoad, spawnPosition, Quaternion.Euler(new Vector3(0,rotationValue+90,0)), this.transform);
                forwardDirection = Quaternion.AngleAxis(90, transform.up) * forwardDirection;
                isTurned = !isTurned;
+               break;
+            case Direction.RightIntersection:
+               rotationValue += 90;
+               newRoad = Instantiate(rightIntersection, spawnPosition, Quaternion.Euler(new Vector3(0,rotationValue+90,0)), this.transform);
+               forwardDirection = Quaternion.AngleAxis(90, transform.up) * forwardDirection;
+               isTurned = !isTurned;
+               break;
+            
+            case Direction.LeftIntersection:
+               rotationValue += -90;
+               newRoad = Instantiate(leftIntersection, spawnPosition, Quaternion.Euler(new Vector3(0,rotationValue,0)), this.transform);
+               forwardDirection = Quaternion.AngleAxis(-90, transform.up) * forwardDirection;
+               isTurned = !isTurned;
+               break;
+            case Direction.Forwardintersection:
+               newRoad = Instantiate(forwardIntersection, spawnPosition, Quaternion.Euler(new Vector3(0,rotationValue,0)), this.transform);
                break;
                 
             case Direction.BothWays:
