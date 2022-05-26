@@ -13,16 +13,22 @@ This will generate the map and start the simulation.
 
 The project comes with pre constructed road layouts that you can use to customize the overall map. In the Road Generator you can add new elements by clicking +, default road is straight you can change them by clicking on the element and open the dropdown box.
 ![](https://media.discordapp.net/attachments/527124872833531925/968215603276038154/unknown.png)
+
 The roads that can be placed are:
 -  Spawn
+
 [![Xl1AS1.png](https://iili.io/Xl1AS1.png)](https://freeimage.host/)
 - Straight
+
 [![XllgB2.md.png](https://iili.io/XllgB2.md.png)](https://freeimage.host/i/XllgB2)
 - Left/Right turn
+
 [![Xl0BBp.md.png](https://iili.io/Xl0BBp.md.png)](https://freeimage.host/i/Xl0BBp)
 - Intersection
+
 [![Xl0Gyu.md.png](https://iili.io/Xl0Gyu.md.png)](https://freeimage.host/i/Xl0Gyu)
 - Bus stop
+
 [![Xl0LFI.md.png](https://iili.io/Xl0LFI.md.png)](https://freeimage.host/i/Xl0LFI)
 You can create custom maps using these pre constructed roads with the only restraint being that you have to place "spawn" only and excactly once.
 
