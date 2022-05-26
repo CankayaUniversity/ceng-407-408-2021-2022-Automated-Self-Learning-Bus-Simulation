@@ -30,7 +30,9 @@ The roads that can be placed are:
 - Bus stop
 
 [![Xl0LFI.md.png](https://iili.io/Xl0LFI.md.png)](https://freeimage.host/i/Xl0LFI)
+
 You can create custom maps using these pre constructed roads with the only restraint being that you have to place "spawn" only and excactly once.
+The checkpoints (green box) which the bus follows and the boundries (red boxes) which the bus avoids are placed automatically but can be changed mannualy in the prefabs folder.
 
 
 
