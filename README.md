@@ -13,3 +13,5 @@ Group Members:
 [Wiki](https://github.com/CankayaUniversity/ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation/wiki) 
 
 [Website](https://cankayauniversity.github.io/ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation/)
+
+[User Manual]([https://cankayauniversity.github.io/ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation](https://github.com/CankayaUniversity/ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation/blob/main/USER%20MANUAL.md)/)
