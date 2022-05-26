@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1653510335",
+        "python_version": "3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Meteh\\Documents\\GitHub\\ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation\\venv\\Scripts\\mlagents-learn config/demo02.yaml --run-id=CarAgent02",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1653510396"
+    },
+    "total": 61.2278673,
+    "count": 1,
+    "self": 0.013099900000000275,
+    "children": {
+        "run_training.setup": {
+            "total": 0.21615849999999992,
+            "count": 1,
+            "self": 0.21615849999999992
+        },
+        "TrainerController.start_learning": {
+            "total": 60.9986089,
+            "count": 1,
+            "self": 0.00010449999999906368,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 60.9984585,
+                    "count": 1,
+                    "self": 60.9984585
+                },
+                "TrainerController._save_models": {
+                    "total": 4.590000000348482e-05,
+                    "count": 1,
+                    "self": 4.590000000348482e-05
+                }
+            }
+        }
+    }
+}

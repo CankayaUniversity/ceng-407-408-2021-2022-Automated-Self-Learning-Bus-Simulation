@@ -5606,7 +5606,7 @@ MonoBehaviour:
   rightIntersection: {fileID: 1145845279601892780, guid: a166b4a74bef1274783fa425b6fba5dc, type: 3}
   leftIntersection: {fileID: 1145845279601892780, guid: 0c9f40ec4568be244a632411da34074f, type: 3}
   forwardIntersection: {fileID: 1145845279601892780, guid: 5df313ec27e3d634f8dac5da2afed112, type: 3}
-  roadPath: 030000000000000008000000000000000600000000000000000000000000000007000000000000000000000006000000
+  roadPath: 0300000000000000000000000000000001000000000000000000000000000000020000000000000000000000010000000000000000000000020000000000000000000000000000000100000001000000000000000000000000000000020000000200000000000000
 --- !u!4 &861791586
 Transform:
   m_ObjectHideFlags: 0
@@ -7184,6 +7184,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5917646783716722488, guid: 1d6117cf51493144a9295f8d83e379c6, type: 3}
+      propertyPath: Record
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917646783716722488, guid: 1d6117cf51493144a9295f8d83e379c6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917646783716722488, guid: 1d6117cf51493144a9295f8d83e379c6, type: 3}
+      propertyPath: DemonstrationName
+      value: CarAgent03.Demo
+      objectReference: {fileID: 0}
     - target: {fileID: 7149503701028303667, guid: 1d6117cf51493144a9295f8d83e379c6, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -7263,6 +7275,18 @@ PrefabInstance:
     - target: {fileID: 7149503701780240608, guid: 1d6117cf51493144a9295f8d83e379c6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149503701780240612, guid: 1d6117cf51493144a9295f8d83e379c6, type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149503701780240612, guid: 1d6117cf51493144a9295f8d83e379c6, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149503701780240612, guid: 1d6117cf51493144a9295f8d83e379c6, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7149503701780240613, guid: 1d6117cf51493144a9295f8d83e379c6, type: 3}
       propertyPath: spawnPosition
