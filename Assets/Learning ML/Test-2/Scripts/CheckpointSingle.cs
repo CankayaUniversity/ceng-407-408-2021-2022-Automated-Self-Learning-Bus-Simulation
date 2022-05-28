@@ -8,7 +8,7 @@ public class CheckpointSingle : MonoBehaviour {
     private MeshRenderer meshRenderer;
 
     private void Awake() {
-        transform.parent = GameManager.Instance.checkpointsParent;
+        //transform.parent = GameManager.Instance.checkpointsParent;
         GameManager.Instance.checkpoints.Add(this.GetComponent<CheckpointSingle>());
         meshRenderer = GetComponent<MeshRenderer>();
     }

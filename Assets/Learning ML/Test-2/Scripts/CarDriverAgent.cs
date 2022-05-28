@@ -58,9 +58,9 @@ public class CarDriverAgent : Agent
             {
                 case 0: turnAmount = 0f;
                     break;
-                case 1: turnAmount = +1;
+                case 1: turnAmount = +1.5f;
                     break;
-                case 2: turnAmount = -1f;
+                case 2: turnAmount = -1.5f;
                     break;
             }
          
