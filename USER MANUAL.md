@@ -14,6 +14,9 @@ This will generate the map and start the simulation.
 The project comes with pre constructed road layouts that you can use to customize the overall map. In the Road Generator you can add new elements by clicking +, default road is straight you can change them by clicking on the element and open the dropdown box.
 ![](https://media.discordapp.net/attachments/527124872833531925/968215603276038154/unknown.png)
 
+![](https://user-images.githubusercontent.com/59233358/171064808-5d3b5b6d-56a8-4d0b-9af6-c8ceac3155d9.png)
+
+
 The roads that can be placed are:
 -  Spawn
 
