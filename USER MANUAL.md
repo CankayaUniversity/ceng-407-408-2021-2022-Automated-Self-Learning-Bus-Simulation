@@ -29,7 +29,7 @@ The roads that can be placed are:
 [![Xl0BBp.md.png](https://iili.io/Xl0BBp.md.png)](https://freeimage.host/i/Xl0BBp)
 - Intersection
 
-[![Xl0Gyu.md.png](https://iili.io/Xl0Gyu.md.png)](https://freeimage.host/i/Xl0Gyu)
+[![XSs06g.md.png](https://iili.io/XSs06g.md.png)](https://freeimage.host/i/XSs06g)
 - Bus stop
 
 [![Xl0LFI.md.png](https://iili.io/Xl0LFI.md.png)](https://freeimage.host/i/Xl0LFI)
