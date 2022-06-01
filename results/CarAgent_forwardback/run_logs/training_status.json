@@ -1,0 +1,65 @@
+{
+    "CarDriver": {
+        "checkpoints": [
+            {
+                "steps": 1376777,
+                "file_path": "results\\CarAgent_forwardback\\CarDriver\\CarDriver-1376777.onnx",
+                "reward": 279.6374973207712,
+                "creation_time": 1649960737.3964286,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_forwardback\\CarDriver\\CarDriver-1376777.pt"
+                ]
+            },
+            {
+                "steps": 1499983,
+                "file_path": "results\\CarAgent_forwardback\\CarDriver\\CarDriver-1499983.onnx",
+                "reward": 189.89999935030937,
+                "creation_time": 1649965721.228817,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_forwardback\\CarDriver\\CarDriver-1499983.pt"
+                ]
+            },
+            {
+                "steps": 1999938,
+                "file_path": "results\\CarAgent_forwardback\\CarDriver\\CarDriver-1999938.onnx",
+                "reward": 80.69999593496323,
+                "creation_time": 1649966734.0108244,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_forwardback\\CarDriver\\CarDriver-1999938.pt"
+                ]
+            },
+            {
+                "steps": 2110798,
+                "file_path": "results\\CarAgent_forwardback\\CarDriver\\CarDriver-2110798.onnx",
+                "reward": 428.99999791383743,
+                "creation_time": 1649967019.1270223,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_forwardback\\CarDriver\\CarDriver-2110798.pt"
+                ]
+            },
+            {
+                "steps": 2446485,
+                "file_path": "results\\CarAgent_forwardback\\CarDriver\\CarDriver-2446485.onnx",
+                "reward": 193.29999885708094,
+                "creation_time": 1649967959.2552438,
+                "auxillary_file_paths": [
+                    "results\\CarAgent_forwardback\\CarDriver\\CarDriver-2446485.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2446485,
+            "file_path": "results\\CarAgent_forwardback\\CarDriver.onnx",
+            "reward": 193.29999885708094,
+            "creation_time": 1649967959.2552438,
+            "auxillary_file_paths": [
+                "results\\CarAgent_forwardback\\CarDriver\\CarDriver-2446485.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

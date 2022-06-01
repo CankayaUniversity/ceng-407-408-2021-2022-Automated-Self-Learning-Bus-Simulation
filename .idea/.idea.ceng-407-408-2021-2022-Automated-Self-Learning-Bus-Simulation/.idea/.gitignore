@@ -1,0 +1,10 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.ceng-407-408-2021-2022-Automated-Self-Learning-Bus-Simulation.iml
+# Editor-based HTTP Client requests
+/httpRequests/
